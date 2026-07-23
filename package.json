@@ -7,7 +7,8 @@
     "build": "turbo build",
     "lint": "turbo lint",
     "clean": "turbo clean",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test:backend": "python -m pytest backend/tests -q"
   },
   "devDependencies": {
     "@turbo/gen": "^1.12.4",
